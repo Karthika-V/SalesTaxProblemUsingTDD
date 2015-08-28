@@ -11,5 +11,5 @@ public class ReceiptDetailsTest {
         ReceiptDetails item1 = new ReceiptDetails("1 book at 12.49");
         assertEquals(item1.Bill(),"1 book at 12.49");
     }
-     
+
 }
