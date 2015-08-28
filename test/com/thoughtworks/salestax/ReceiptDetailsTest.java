@@ -12,4 +12,10 @@ public class ReceiptDetailsTest {
         assertEquals(item1.Bill(),"1 book at 12.49");
     }
 
+    @Test
+    public void shouldHaveTaxExemptionForBookItems() {
+        ReceiptDetails item1 = new ReceiptDetails("1 book at 12.49");
+        assertTrue(item1.TaxExemption("book"));
+    }
+
 }
