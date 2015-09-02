@@ -14,6 +14,7 @@ public class ReceiptDetails {
 
     public Boolean TaxExemption(String itemDetails) {
         String[] items = itemDetails.split(" ");
+
         if (items[1] == "book")
             return true;
         return false;

@@ -18,4 +18,5 @@ public class ReceiptDetailsTest {
         assertTrue(item1.TaxExemption("book"));
     }
 
+
 }

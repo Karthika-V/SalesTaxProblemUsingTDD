@@ -1,6 +1,6 @@
 <?xml version = "1.0"?>
 <project name="Line" default="runjUnit" basedir=".">
-    <property name="project.name" value="ReceiptDetails"/>
+    <property name="project.name" value="SalesTaxes"/>
     <property name="package.name" value="com.thoughtworks.SalesTaxes"/>
 
     <target name="build" depends="clean">
